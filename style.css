@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+html {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    background-color: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+#table {
+    
+    border-collapse: separate;
+    border-spacing: 0;
+    
+    width: 450px;
+    height: 200px;
+    
+    box-sizing: border-box;
+    
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.16);
+    
+    border-bottom: 3px solid #01987A;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #01987A;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#left_th {
+    border-top-left-radius: 6px;
+}
+
+#right_th {
+    border-top-right-radius: 6px;
+}
+
+td {
+    width: 10px;
+    height: 10px;
+}
+
+tbody td {
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+
+    border-top: 1.5px solid rgba(0, 0, 0, 0);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);
+
+    width: 25%;
+
+    /*transition: 0.02s ease-in-out;*/
+}
+
+tbody tr:hover {
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+}
+
+tbody tr:hover td {
+    box-sizing: border-box;
+    border-top: 1.5px solid #dbdbdb;
+    border-bottom: 1.5px solid #dbdbdb;
+
+    font-weight: 600;
+    color: #01987A;
+
+    width: 25%;
+
+    letter-spacing: -0.4px;
+}
