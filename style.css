@@ -17,14 +17,12 @@ body {
 }
 
 #table {
-    
-    border-collapse: separate;
-    border-spacing: 0;
-    
     width: 450px;
     height: 200px;
-    
     box-sizing: border-box;
+
+    border-collapse: separate;
+    border-spacing: 0;
     
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.16);
     
@@ -36,8 +34,10 @@ body {
 thead th {
     background-color: #01987A;
     color: #ffffff;
-    text-align: left;
+
     padding: 15px;
+
+    text-align: left;
     font-size: 18px;
     font-weight: 900;
 }
@@ -50,27 +50,24 @@ thead th {
     border-top-right-radius: 6px;
 }
 
-td {
-    width: 10px;
-    height: 10px;
-}
 
 tbody td {
-    padding-left: 15px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+
+    padding: 0 0 0 15px;
+    
     font-size: 16px;
     font-weight: 400;
-    box-sizing: border-box;
 
     border-top: 1.5px solid rgba(0, 0, 0, 0);
     border-bottom: 1.5px solid rgba(0, 0, 0, 0);
 
     width: 25%;
-
-    /*transition: 0.02s ease-in-out;*/
 }
+
+
 
 tbody tr:hover {
     background-color: #f3f3f3;
